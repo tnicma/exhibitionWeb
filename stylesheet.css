@@ -1,0 +1,58 @@
+/*CSS Stylesheet */
+
+body {height: 100%; margin: 0;}
+ul, ol {list-style: none;}
+.clearfix {clear: both;}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url ("/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Lemonmilk';
+  src: url ("/fonts/LemonMilk.otf");
+}
+
+@font-face {
+  font-family: 'Skyfall';
+  src: url ("/fonts/Skyfall.ttf");
+}
+
+body {
+    font-size: 2.4em;
+    text-align: center;
+    font-family:"Roboto", sans-serif;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 35%;
+    width: 35%;
+    position: absolute;
+    left: 0;
+    top: -6%;
+}
+
+#section0 {
+    background-image: url(images/textureBG.png);
+    font-family: 'Roboto', sans-serif;
+}
+
+.quote {
+    color: #b34c3d;
+    position: relative;
+    top: 90px;
+    font-size: .5em;
+}
+
+#white {
+    color: #fff;
+}
+
+.arrow img {
+    height: 45px;
+    width: 45px;
+    position: relative;
+    top: 140px;
+}
