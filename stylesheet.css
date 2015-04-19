@@ -39,6 +39,80 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.countDown {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+	margin: 0 auto;
+	width: 100%;
+	color: #555;
+}
+
+#countdown_dashboard {
+	height: 200px;
+}
+
+.dash {
+	width: 150px;
+	height: 150px;
+	float: left;
+	padding: 20px;
+	position: relative;
+    
+}
+
+.dash .digit {
+	font-size: 70pt;
+	font-weight: bold;
+	float: left;
+	width: 98px;
+	text-align: center;
+	font-family: 'Skyfall';
+	color: #fff;
+	position: relative;
+}
+
+.dash_title {
+	position: absolute;
+	display: block;
+	bottom: -30px;
+	font-size: 1.25em;
+    font-family: 'Skyfall';
+	color: #b34c3d;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.days_dash {
+    width: 200px;
+}
+
+.hours_dash {
+    width: 200px;
+}
+
+.minutes_dash {
+    width: 200px;
+}
+
+.days_dash .digit {
+	background: transparent url('images/orangeBG.png') 0 0 no-repeat;
+    height: 145px;
+}
+
+.hours_dash .digit {
+	background: transparent url('images/orangeBG.png') 0 0 no-repeat;
+    height: 145px;
+}
+
+.minutes_dash .digit {
+	background: transparent url('images/orangeBG.png') 0 0 no-repeat;
+    height: 145px;
+}
+
+
 .quote {
     color: #b34c3d;
     position: relative;

@@ -3,12 +3,15 @@
 
 <head>
 <meta charset="UTF-8">
-<title></title>
+<title></title>      
 <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+ 
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    
+		    
 
         <script type="text/javascript" src="jquery.fullPage.min.js"></script>
     <script>$(document).ready(function() {
@@ -17,6 +20,8 @@
         sectionsColor: ['#000000', '#b34c3d', '#c87b4b', 'whitesmoke', '#ccddff'], navigation: false
     });
 });</script>
+<script language="Javascript" type="text/javascript" src="js/jquery.lwtCountdown-1.0.js"></script>
+    
 </head>
 
 <body>
@@ -27,7 +32,30 @@
         </section>
         
         <section class="countDown">
-        <p> Countdown Here</p>
+            
+      	<!-- Countdown dashboard start -->
+		<div id="countdown_dashboard">
+            <div class="dash days_dash">
+				<span class="dash_title">days</span>
+				<div class="digit">0</div>
+				<div class="digit">0</div>
+			</div>
+
+			<div class="dash hours_dash">
+				<span class="dash_title">hours</span>
+				<div class="digit">0</div>
+				<div class="digit">0</div>
+			</div>
+
+			<div class="dash minutes_dash">
+				<span class="dash_title">minutes</span>
+				<div class="digit">0</div>
+				<div class="digit">0</div>
+			</div>
+
+
+		</div>
+		<!-- Countdown dashboard end -->
         </section>
         
         <section class="quote">
@@ -38,11 +66,16 @@
     
     </div> <!-- home page section -->
     
+   
+    
+    
     <div class="section" id="section1"> 
         <p> Video Here</p>
         
         <span class="arrow"><img src="images/downarrow.svg"> </span>
     </div> <!-- video section -->
+    
+    
     
     <div class="section" id="section2"> Captones
         <div class="slide"> Slide 1 </div>
@@ -53,7 +86,27 @@
     
 </div>
 
+    
+    
+    
+	<script language="javascript" type="text/javascript">
+			jQuery(document).ready(function() {
+				$('#countdown_dashboard').countDown({
+					targetDate: {
+						'day': 		20,
+						'month': 	5,
+						'year': 	2015,
+						'hour': 	17,
+						'min': 		0,
+						'sec': 		0
+					},
+                      omitWeeks: true
 
+				});
+				
+				
+			});
+		</script>
 
 </body>
  </html>
