@@ -39,19 +39,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.countDown {
-    display: flex;
-    justify-content: center;
-}
-
-#container {
-	margin: 0 auto;
-	width: 100%;
-	color: #555;
-}
-
 #countdown_dashboard {
 	height: 200px;
+}
+
+.countDown {
+display: flex;
+display: -webkit-flex;    
+justify-content: center;    
 }
 
 .dash {
@@ -111,6 +106,44 @@ body {
 	background: transparent url('images/orangeBG.png') 0 0 no-repeat;
     height: 145px;
 }
+
+@media screen and (min-width : 600px) and (max-width : 720px) {
+    .minutes_dash .digit {height: 100px; background: transparent url('images/orangeBGMed.png') 0 0 no-repeat;}
+    .hours_dash .digit {height: 100px; background: transparent url('images/orangeBGMed.png') 0 0 no-repeat;}
+    .days_dash .digit {height: 100px; background: transparent url('images/orangeBGMed.png') 0 0 no-repeat;}
+    .dash .digit {width: 60px; font-size: 60px;}
+    .minutes_dash {width: 100px;}
+    .hours_dash {width: 100px;}
+    .days_dash {width: 100px;}
+    .dash {width: 150px; height: 75px;}
+    .dash_title {bottom: -80px;}
+}
+
+@media screen and (min-width : 480px) and (max-width : 599px) {
+    .minutes_dash .digit {height: 75px; background: transparent url('images/orangeBGSM.png') 0 0 no-repeat;}
+    .hours_dash .digit {height: 75px; background: transparent url('images/orangeBGSM.png') 0 0 no-repeat;}
+    .days_dash .digit {height: 75px; background: transparent url('images/orangeBGSM.png') 0 0 no-repeat;}
+    .dash .digit {width: 50px; font-size: 50px;}
+    .minutes_dash {width: 50px;}
+    .hours_dash {width: 50px;}
+    .days_dash {width: 50px;}
+    .dash {width: 100px; height: 75px;}
+    .dash_title {bottom: -30px; font-size: .75em;}
+}
+
+@media screen and (min-width : 320px) and (max-width : 479px) {
+    .minutes_dash .digit {height: 49px; background: transparent url('images/orangeBGMobile.png') 0 0 no-repeat;}
+    .hours_dash .digit {height: 49px; background: transparent url('images/orangeBGMobile.png') 0 0 no-repeat;}
+    .days_dash .digit {height: 49px; background: transparent url('images/orangeBGMobile.png') 0 0 no-repeat;}
+    .dash .digit {width: 35px; font-size: 30px;}
+    .minutes_dash {width: 35px;}
+    .hours_dash {width: 35px;}
+    .days_dash {width: 35px;}
+    .dash {width: 70px; height: 50px;}
+    .dash_title {bottom: -20px; font-size: .5em;}
+}
+
+
 
 
 .quote {
