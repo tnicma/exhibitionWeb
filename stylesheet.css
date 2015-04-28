@@ -7,16 +7,31 @@ ul, ol {list-style: none;}
 @font-face {
   font-family: 'Roboto';
   src: url ("/fonts/Roboto-Regular.ttf");
+  src: url('/fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('/fonts/roboto-regular-webfont.woff') format('woff'),
+         url('/fonts/roboto-regular-webfont.ttf') format('truetype'),
+         url('/fonts/roboto-regular-webfont.svg#skyfallregular') format('svg');    
 }
 
 @font-face {
   font-family: 'Lemonmilk';
   src: url ("/fonts/LemonMilk.otf");
+  src: url('/fonts/skyfall-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/lemonmilk-webfont.woff2') format('woff2'),
+         url('/fonts/lemonmilk-webfont.woff') format('woff'),
+         url('/fonts/lemonmilk-webfont.ttf') format('truetype'),
+         url('/fonts/lemonmilk-webfont.svg#skyfallregular') format('svg');    
 }
 
 @font-face {
   font-family: 'Skyfall';
   src: url ("/fonts/Skyfall.ttf");
+  src: url('/fonts/skyfall-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/skyfall-webfont.woff2') format('woff2'),
+         url('/fonts/skyfall-webfont.woff') format('woff'),
+         url('/fonts/skyfall-webfont.ttf') format('truetype'),
+         url('/fonts/skyfall-webfont.svg#skyfallregular') format('svg');    
 }
 
 body {
