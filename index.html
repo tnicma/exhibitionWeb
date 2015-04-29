@@ -16,7 +16,15 @@
 
         sectionsColor: ['#000000', '#b34c3d', '#c87b4b', 'whitesmoke', '#ccddff'], navigation: false
     });
-});</script>
+    
+    $('.moveSectionDown').click(function(e){
+				e.preventDefault();
+				$.fn.fullpage.moveSectionDown();
+    });
+});
+    
+    
+    </script>
 </head>
 
 <body>
@@ -34,14 +42,14 @@
         <p> "Every revolution has had its <span id="white" >beginnings</span> underground."</p>
         </section>
         
-        <span class="arrow"><img src="images/downarrow.svg"> </span>
+        <span class="arrow"><img class="moveSectionDown" src="images/downarrow.svg"></span>
     
     </div> <!-- home page section -->
     
     <div class="section" id="section1"> 
         <p> Video Here</p>
         
-        <span class="arrow"><img src="images/downarrow.svg"> </span>
+        <span class="arrow"><img class="moveSectionDown" src="images/downarrow.svg"> </span>
     </div> <!-- video section -->
     
     <div class="section" id="section2"> Captones
