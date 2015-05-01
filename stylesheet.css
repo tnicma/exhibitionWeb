@@ -56,3 +56,302 @@ body {
     position: relative;
     top: 140px;
 }
+
+.slidetitle {
+    
+    text-align: center;
+    width: 200px;
+    height: 180px;
+    margin-top: -90px;
+    
+}
+
+.slidecontent {
+    
+    padding-top: 10px;
+    
+}
+
+.gonkosection {
+    
+    float: left;
+    margin-left: 70px;
+    height: 400px;
+    width: 550px;
+    
+}
+    
+.gonkoprofile {
+        
+    width: 120px;
+    height: 150px;
+        
+    }
+
+.gonkoname {
+    
+    font-family: 'Roboto';
+    margin-top: -5px;
+    font-size: 30px;
+    
+}
+
+.gonkotitle {
+    
+    font-family: 'Lemonmilk';
+    margin-top: -25px;
+    
+}
+
+.gonkodescrip {
+    
+    margin-top: -30px;
+    font-size: 20px;
+    
+}
+
+.yarbosection {
+    
+    float: right;
+    margin-right: 70px;
+    height: 400px;
+    width: 550px;
+    
+}
+
+.yarboprofile {
+    
+    width: 230px;
+    height: 150px;
+    
+}
+
+.yarboname {
+    
+    font-family: 'Roboto';
+    margin-top: -5px;
+    font-size: 30px;
+    
+}
+
+.yarbotitle {
+    
+    font-family: 'Lemonmilk';
+    margin-top: -25px;
+    
+}
+
+.yarbodescrip {
+    
+    margin-top: -30px;
+    font-size: 20px;
+    
+}
+
+.bournesection {
+    
+    float: left;
+    margin-left: 70px;
+    height: 400px;
+    width: 550px;
+    
+}
+    
+.bourneprofile {
+        
+    width: 120px;
+    height: 150px;
+        
+    }
+
+.bournename {
+    
+    font-family: 'Roboto';
+    margin-top: -5px;
+    font-size: 30px;
+    
+}
+
+.bournetitle {
+    
+    font-family: 'Lemonmilk';
+    margin-top: -25px;
+    
+}
+
+.bournedescrip {
+    
+    margin-top: -30px;
+    font-size: 20px;
+    
+}
+
+.kahlesection {
+    
+    float: right;
+    margin-right: 70px;
+    height: 400px;
+    width: 550px;
+    
+}
+
+.kahleprofile {
+    
+    width: 150px;
+    height: 150px;
+    
+}
+
+.kahlename {
+    
+    font-family: 'Roboto';
+    margin-top: -5px;
+    font-size: 30px;
+    
+}
+
+.kahletitle {
+    
+    font-family: 'Lemonmilk';
+    margin-top: -25px;
+    
+}
+
+.kahledescrip {
+    
+    margin-top: -30px;
+    font-size: 20px;
+    
+}
+
+.pughsection {
+    
+    float: left;
+    margin-left: 70px;
+    height: 400px;
+    width: 550px;
+    
+}
+    
+.pughprofile {
+        
+    width: 150px;
+    height: 150px;
+        
+    }
+
+.pughname {
+    
+    font-family: 'Roboto';
+    margin-top: -5px;
+    font-size: 30px;
+    
+}
+
+.pughtitle {
+    
+    font-family: 'Lemonmilk';
+    margin-top: -25px;
+    
+}
+
+.pughdescrip {
+    
+    margin-top: -30px;
+    font-size: 20px;
+    
+}
+
+.washsection {
+    
+    float: right;
+    margin-right: 70px;
+    height: 400px;
+    width: 550px;
+    
+}
+
+.washprofile {
+    
+    width: 150px;
+    height: 150px;
+    
+}
+
+.washname {
+    
+    font-family: 'Roboto';
+    margin-top: -5px;
+    font-size: 30px;
+    
+}
+
+.washtitle {
+    
+    font-family: 'Lemonmilk';
+    margin-top: -25px;
+    
+}
+
+.washdescrip {
+    
+    margin-top: -30px;
+    font-size: 20px;
+    
+}
+
+.mcgowansection {
+    
+    margin-left: 365px;
+    height: 400px;
+    width: 550px;
+    
+}
+
+.mcgowanprofile {
+    
+    width: 100px;
+    height: 150px;
+    
+}
+
+.mcgowanname {
+    
+    font-family: 'Roboto';
+    margin-top: -5px;
+    font-size: 30px;
+    
+}
+
+.mcgowantitle {
+    
+    font-family: 'Lemonmilk';
+    margin-top: -25px;
+    
+}
+
+.mcgowandescrip {
+    
+    margin-top: -30px;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
